@@ -1,2 +1,9 @@
-const userName = "Bank inwza007";
-console.log(userName);
+class Department {
+  name: string;
+  constructor(n: string) {
+    this.name = n;
+  }
+}
+
+const accounting = new Department("Accounting");
+console.log(accounting);
